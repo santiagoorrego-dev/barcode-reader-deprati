@@ -2,7 +2,11 @@ import React, { useEffect, useRef, useState } from 'react';
 import { View, Text, PermissionsAndroid, Platform } from 'react-native';
 import { Camera, useCameraDevices } from 'react-native-vision-camera';
 
-const BarcodeReader = ({ onBarcodeRead }) => {
+interface BarcodeReaderProps {
+  onBarcodeRead: (event: any) => void;
+}
+
+const BarcodeReader: React.FC<BarcodeReaderProps> = ({ onBarcodeRead }) => {
   const devices = useCameraDevices();
   const device = devices.back;
   const cameraRef = useRef(null);
@@ -24,14 +28,14 @@ const BarcodeReader = ({ onBarcodeRead }) => {
     requestCameraPermission();
   }, []);
 
-  const handleBarcodeDetected = ({ nativeEvent }) => {
+  const handleBarcodeDetected = ({ nativeEvent }: { nativeEvent: any }) => {
     if (onBarcodeRead) {
       onBarcodeRead(nativeEvent);
     }
   };
 
   if (device == null || !hasPermission) {
-    return <Text>No access to camera</Text>;
+    return <Text>Sin acceso a la cámara</Text>;
   }
 
   return (

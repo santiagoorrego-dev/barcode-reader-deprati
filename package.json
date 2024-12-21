@@ -1,7 +1,7 @@
 {
   "name": "barcode-reader-deprati",
   "version": "1.0.0",
-  "description": "A React Native module for reading barcodes using Vision Camera.",
+  "description": "Un módulo de React Native para leer códigos de barras utilizando Vision Camera.",
   "main": "src/BarcodeReader.tsx",
   "scripts": {
     "start": "react-native start",
@@ -18,19 +18,20 @@
     "scanner",
     "vision-camera"
   ],
-  "author": "Your Name",
+  "author": "DePrati",
   "license": "MIT",
   "dependencies": {
-    "react-native-vision-camera": "^2.0.0",
-    "react-native-permissions": "^3.0.0"
+    "react-native-permissions": "^3.0.0",
+    "react-native-vision-camera": "^2.0.0"
   },
   "peerDependencies": {
     "react": "*",
     "react-native": "*"
   },
   "devDependencies": {
-    "typescript": "^4.0.0",
+    "@types/react": "^18.3.18",
     "eslint": "^7.0.0",
-    "jest": "^26.0.0"
+    "jest": "^26.0.0",
+    "typescript": "^4.0.0"
   }
 }
