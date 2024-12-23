@@ -1,24 +1,24 @@
 # barcode-reader-deprati
 
-## Installation
+## Instalación
 
-To install the `barcode-reader-deprati` module, run the following command:
+Para instalar el módulo `barcode-reader-deprati`, ejecuta el siguiente comando:
 
 ```bash
 npm install barcode-reader-deprati
 ```
 
-## Usage
+## Uso
 
-To use the `BarcodeReader` component in your React Native application, import it as follows:
+Para usar el componente `BarcodeReader` en tu aplicación React Native, impórtalo de la siguiente manera:
 
 ```javascript
 import BarcodeReader from 'barcode-reader-deprati';
 ```
 
-### Example
+### Ejemplo
 
-Here is a simple example of how to use the `BarcodeReader` component:
+Aquí tienes un ejemplo sencillo de cómo usar el componente `BarcodeReader`:
 
 ```javascript
 import React from 'react';
@@ -30,7 +30,7 @@ const App = () => {
     <View style={{ flex: 1 }}>
       <BarcodeReader
         onBarcodeRead={(data) => {
-          console.log('Barcode data:', data);
+          console.log('Datos del código de barras:', data);
         }}
       />
     </View>
@@ -40,16 +40,12 @@ const App = () => {
 export default App;
 ```
 
-## Features
+## Características
 
-- Utilizes React Native Vision Camera for barcode scanning.
-- Handles camera permissions automatically.
-- Provides callback for detected barcode data.
+- Utiliza React Native Vision Camera para escanear códigos de barras.
+- Maneja automáticamente los permisos de la cámara.
+- Proporciona una función de callback para los datos del código de barras detectado.
 
-## Contributing
+## Licencia
 
-If you would like to contribute to this project, please fork the repository and submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
