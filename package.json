@@ -1,6 +1,6 @@
 {
   "name": "barcode-reader-deprati",
-  "version": "1.0.1",
+  "version": "1.0.6",
   "description": "Un módulo de React Native para leer códigos de barras utilizando Vision Camera.",
   "main": "src/BarcodeReader.tsx",
   "repository": {
@@ -19,8 +19,8 @@
     "react-native-vision-camera": "^2.0.0"
   },
   "peerDependencies": {
-    "react": "*",
-    "react-native": "*"
+    "react": "18.1.0",
+    "react-native": "0.70.14"
   },
   "devDependencies": {
     "@types/react": "^18.3.18",
