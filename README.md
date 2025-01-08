@@ -28,11 +28,7 @@ import BarcodeReader from 'barcode-reader-deprati';
 const App = () => {
   return (
     <View style={{ flex: 1 }}>
-      <BarcodeReader
-        onBarcodeRead={(data) => {
-          console.log('Datos del código de barras:', data);
-        }}
-      />
+      <BarcodeReader />
     </View>
   );
 };

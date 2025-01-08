@@ -637,6 +637,11 @@ punycode@^2.1.0:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.3.1.tgz#027422e2faec0b25e1549c3e1bd8309b9133b6e5"
   integrity sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==
 
+react-native-permissions@^5.2.2:
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/react-native-permissions/-/react-native-permissions-5.2.2.tgz#1eb9849ef23500b4d618cf9c2049f40069fa6946"
+  integrity sha512-Mae5VKT8bjliksONZ+jMYTPf90wxuhn1H1FiH/kRfw0Y5tW5WIV1P8t/KiEHKZRvimnrInimuCr+EpRzK0IPWQ==
+
 react-native-vision-camera@^2.0.0:
   version "2.16.8"
   resolved "https://registry.yarnpkg.com/react-native-vision-camera/-/react-native-vision-camera-2.16.8.tgz#4873b0cb62ad04ca442a08b9e34f5883b35a6418"
